@@ -1083,17 +1083,18 @@ form.form-merg {
 
 .footer-head {
     display: flex;
-    height: 0px;
+    justify-content: space-between;
 }
 
 .last-footer a {
-    
+    color: #4a4f4f;
+    font-size: 13px;
     text-decoration: none;
 }
 
 a#footer-last {
-    padding-left: 400px;
-    padding-top: 20px;
+    /* padding-left: 400px;
+    padding-top: 20px; */
 }
 
 .last-text-font{
@@ -1118,7 +1119,7 @@ ul.icons-footer {
 }
 
 ul.icons-footer img {
-    width: 29px
+    width: 18px
 }
 
 ul.icons-footer li {
@@ -1293,7 +1294,32 @@ left: unset !important;
     border: hidden;
     background-color: #ffffff;
 }
+.last-text-font {
+    padding: 0 35px;
+}
 
+section.footer-head {
+    padding: 0 35px;
+}
+a#footer-last {
+    text-decoration: none;
+    color: #4a4f4f;
+    font-size: 13px;
+    align-self: center;
+}
 
-
-  
+.last-footer>a p {
+    font-weight: 600;
+    border-right: 1px solid #000;
+    padding-right: 20px;
+}
+section.footer-head {
+    margin-bottom: 20px;
+}
+ul.icons-footer {
+    padding-left: 10px;
+}
+.footer li:hover {
+    text-decoration: underline;
+    color: #4d4d9c;
+}
